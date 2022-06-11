@@ -5,11 +5,33 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap" rel="stylesheet">
+
   <link rel="stylesheet" href="style.css">
 
   <title>Frontend Mentor | NFT preview card component</title>
 </head>
 <body class="page">
-
+  <main class="page__main">
+    <h1 class="sr-only">NFT card Equilibrium collection</h1>
+    <article class="nft-card">
+      <a class="nft-card__link" href="#">
+        <img class="nft-card__img" src="images/image-equilibrium.jpg" alt="">
+      </a>
+      <h2 class="nft-card__title"><a class="nft-card__link" href="#">Equilibrium #3429</a></h2>
+      <p class="nft-card__description"> Our Equilibrium collection promotes balance and calm.</p>
+      <div class="nft-card__info">
+        <span class="nft-card__price">0.041 ETH</span>
+        <span class="nft-card__time">3 days left</span>
+      </div>
+      <p class="nft-card__author">Creation of <a class="nft-card__link" href="#">Jules Wyvern</a></p>
+    </article>
+    <div class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+    </div>
+  </main>
 </body>
 </html>
