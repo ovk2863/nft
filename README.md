@@ -22,8 +22,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [https://github.com/ovk2863/qr](https://github.com/ovk2863/nft)
-- Live Site URL: [https://ovk2863.github.io/qr/](https://ovk2863.github.io/nft)
+- Solution URL: [https://github.com/ovk2863/nft](https://github.com/ovk2863/nft)
+- Live Site URL: [https://ovk2863.github.io/nft/](https://ovk2863.github.io/nft)
 
 ### Built with
 
