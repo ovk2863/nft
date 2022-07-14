@@ -15,23 +15,28 @@
   <title>Frontend Mentor | NFT preview card component</title>
 </head>
 <body class="page">
-  <main class="page__main">
+  <main class="page__main container">
     <h1 class="sr-only">NFT card Equilibrium collection</h1>
     <article class="nft-card">
-      <a class="nft-card__link" href="#">
-        <img class="nft-card__img" src="images/image-equilibrium.jpg" alt="">
+      <a class="nft-card__link nft-card__link--img" href="#">
+        <img class="nft-card__img" src="images/image-equilibrium.jpg" alt="куб" width="600" height="600">
       </a>
       <h2 class="nft-card__title"><a class="nft-card__link" href="#">Equilibrium #3429</a></h2>
       <p class="nft-card__description"> Our Equilibrium collection promotes balance and calm.</p>
       <div class="nft-card__info">
+        <svg class="nft-card__icon" width="11" height="18" xmlns="http://www.w3.org/2000/svg"><path d="M11 10.216 5.5 18 0 10.216l5.5 3.263 5.5-3.262ZM5.5 0l5.496 9.169L5.5 12.43 0 9.17 5.5 0Z" fill="#00FFF8"/></svg>
         <span class="nft-card__price">0.041 ETH</span>
+        <svg class="nft-card__icon" width="17" height="17" xmlns="http://www.w3.org/2000/svg"><path d="M8.305 2.007a6.667 6.667 0 1 0 0 13.334 6.667 6.667 0 0 0 0-13.334Zm2.667 7.334H8.305a.667.667 0 0 1-.667-.667V6.007a.667.667 0 0 1 1.334 0v2h2a.667.667 0 0 1 0 1.334Z" fill="#8BACD9"/></svg>
         <span class="nft-card__time">3 days left</span>
       </div>
-      <p class="nft-card__author">Creation of <a class="nft-card__link" href="#">Jules Wyvern</a></p>
+      <div class="nft-card__author">
+        <img src="images/image-avatar.png" alt="фотография автора" class="nft-card__avatar" width="132" height="132">
+        <p class="nft-card__author-name">Creation of <a class="nft-card__link" href="#">Jules Wyvern</a></p>
+      </div>
     </article>
-    <div class="attribution">
-      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
-    </div>
   </main>
+  <footer class="page__footer">
+     <div class="attribution">Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.</div>
+  </footer>
 </body>
 </html>
